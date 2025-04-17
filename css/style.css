@@ -1,0 +1,28 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url(../assets/img/ChatGPT\ Image\ 17\ de\ abr.\ de\ 2025\,\ 13_50_21.png);
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+.nav-pill {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+@media (prefers-color-scheme: dark) {
+  .nav-pill {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+/* Esconde o checkbox */
+.toggle-checkbox {
+  display: none;
+}
+.toggle-label {
+  cursor: pointer;
+}
